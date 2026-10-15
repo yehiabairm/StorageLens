@@ -178,7 +178,7 @@ flowchart LR
 
 ---
 
-## 🛡️ Built to never break your Mac
+## 🦺 Built to never break your Mac
 
 | Rule | What it means |
 |---|---|
