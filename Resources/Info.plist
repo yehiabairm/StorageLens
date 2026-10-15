@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>StorageLens</string>
+    <key>CFBundleDisplayName</key><string>StorageLens</string>
+    <key>CFBundleIdentifier</key><string>dev.beram.StorageLens</string>
+    <key>CFBundleExecutable</key><string>StorageLens</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSDesktopFolderUsageDescription</key><string>StorageLens measures how much space your Desktop uses.</string>
+    <key>NSDocumentsFolderUsageDescription</key><string>StorageLens measures how much space your Documents use.</string>
+    <key>NSDownloadsFolderUsageDescription</key><string>StorageLens finds old and large downloads.</string>
+    <key>NSRemovableVolumesUsageDescription</key><string>StorageLens measures folders on external drives you choose.</string>
+</dict>
+</plist>
