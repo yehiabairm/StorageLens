@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="StorageLens — see every gigabyte, free the ones you don't need">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0C18"/>
+      <stop offset="1" stop-color="#151935"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.18" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#3B5BFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3B5BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.85" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#B145FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#B145FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#B9C3FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4C7DFF"/><stop offset="1" stop-color="#2A4FD6"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A55BFF"/><stop offset="1" stop-color="#6D2FD8"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2FD3C4"/><stop offset="1" stop-color="#14918A"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFA24C"/><stop offset="1" stop-color="#E06A1B"/></linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6FAE"/><stop offset="1" stop-color="#D63A7C"/></linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E73FF"/><stop offset="1" stop-color="#4246C9"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6B6B"/><stop offset="1" stop-color="#C93C3C"/></linearGradient>
+    <linearGradient id="gray" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5A6080"/><stop offset="1" stop-color="#3B405C"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glowA)"/>
+  <rect width="1280" height="640" fill="url(#glowB)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <!-- Logo -->
+    <g transform="translate(80 132)">
+      <rect width="76" height="76" rx="18" fill="#12152B" stroke="#2E3560"/>
+      <rect x="12" y="12" width="30" height="52" rx="5" fill="url(#blue)"/>
+      <rect x="46" y="12" width="18" height="24" rx="4" fill="url(#purple)"/>
+      <rect x="46" y="40" width="18" height="12" rx="3" fill="url(#teal)"/>
+      <rect x="46" y="55" width="8" height="9" rx="2" fill="url(#orange)"/>
+      <rect x="56" y="55" width="8" height="9" rx="2" fill="url(#pink)"/>
+    </g>
+
+    <text x="78" y="300" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#title)">StorageLens</text>
+    <text x="80" y="356" font-size="30" font-weight="500" fill="#C9D0F5">See every gigabyte.</text>
+    <text x="80" y="396" font-size="30" font-weight="500" fill="#8E97C7">Free the ones you don't need.</text>
+
+    <!-- Pills -->
+    <g font-size="15" font-weight="600">
+      <rect x="80" y="440" width="150" height="36" rx="18" fill="#1B2042" stroke="#36407A"/>
+      <text x="155" y="463" text-anchor="middle" fill="#C9D0F5">100% on-device</text>
+      <rect x="240" y="440" width="158" height="36" rx="18" fill="#1B2042" stroke="#36407A"/>
+      <text x="319" y="463" text-anchor="middle" fill="#C9D0F5">Trash-only deletes</text>
+      <rect x="408" y="440" width="128" height="36" rx="18" fill="#1B2042" stroke="#36407A"/>
+      <text x="472" y="463" text-anchor="middle" fill="#C9D0F5">Open source</text>
+    </g>
+    <text x="80" y="530" font-size="15" fill="#5F6894">Native macOS · SwiftUI · No account · No tracking</text>
+
+    <!-- App window -->
+    <g filter="url(#shadow)">
+      <rect x="640" y="100" width="580" height="470" rx="16" fill="#171A2C" stroke="#2C3253"/>
+    </g>
+    <circle cx="664" cy="121" r="6" fill="#FF5F57"/>
+    <circle cx="684" cy="121" r="6" fill="#FEBC2E"/>
+    <circle cx="704" cy="121" r="6" fill="#28C840"/>
+    <text x="930" y="126" text-anchor="middle" font-size="13" font-weight="600" fill="#8E97C7">Home folder · 229 GB</text>
+    <line x1="640" y1="141" x2="1220" y2="141" stroke="#252A47"/>
+
+    <!-- Treemap (demo data) -->
+    <g font-weight="700" fill="#FFFFFF">
+      <rect x="656" y="150" width="260" height="200" rx="9" fill="url(#blue)"/>
+      <text x="670" y="174" font-size="15">Photos Library</text>
+      <text x="670" y="193" font-size="13" font-weight="500" fill-opacity="0.85">41 GB · 18%</text>
+
+      <rect x="920" y="150" width="284" height="140" rx="9" fill="url(#purple)"/>
+      <rect x="921.5" y="151.5" width="281" height="137" rx="8" fill="none" stroke="#FF5A5F" stroke-width="3" stroke-dasharray="8 5"/>
+      <text x="934" y="174" font-size="15">Xcode DerivedData</text>
+      <text x="934" y="193" font-size="13" font-weight="500" fill-opacity="0.85">38 GB · 17%</text>
+
+      <rect x="920" y="294" width="150" height="206" rx="9" fill="url(#teal)"/>
+      <text x="934" y="318" font-size="15">App caches</text>
+      <text x="934" y="337" font-size="13" font-weight="500" fill-opacity="0.85">23 GB · 10%</text>
+
+      <rect x="1074" y="294" width="130" height="116" rx="9" fill="url(#orange)"/>
+      <rect x="1075.5" y="295.5" width="127" height="113" rx="8" fill="none" stroke="#FF5A5F" stroke-width="3" stroke-dasharray="8 5"/>
+      <text x="1086" y="318" font-size="15">Docker</text>
+      <text x="1086" y="337" font-size="13" font-weight="500" fill-opacity="0.85">22 GB</text>
+
+      <rect x="1074" y="414" width="130" height="86" rx="9" fill="url(#pink)"/>
+      <text x="1086" y="438" font-size="14">node_modules</text>
+      <text x="1086" y="456" font-size="12" font-weight="500" fill-opacity="0.85">9.4 GB</text>
+
+      <rect x="656" y="354" width="130" height="146" rx="9" fill="url(#indigo)"/>
+      <text x="670" y="378" font-size="15">Downloads</text>
+      <text x="670" y="397" font-size="13" font-weight="500" fill-opacity="0.85">9.1 GB</text>
+
+      <rect x="790" y="354" width="126" height="80" rx="9" fill="url(#red)"/>
+      <text x="802" y="378" font-size="14">Movies</text>
+      <text x="802" y="396" font-size="12" font-weight="500" fill-opacity="0.85">7 GB</text>
+
+      <rect x="790" y="438" width="62" height="62" rx="8" fill="url(#gray)"/>
+      <rect x="856" y="438" width="28" height="62" rx="6" fill="url(#gray)"/>
+      <rect x="888" y="438" width="28" height="29" rx="5" fill="url(#teal)" fill-opacity="0.7"/>
+      <rect x="888" y="471" width="28" height="29" rx="5" fill="url(#purple)" fill-opacity="0.7"/>
+    </g>
+
+    <!-- Selection bar -->
+    <line x1="640" y1="510" x2="1220" y2="510" stroke="#252A47"/>
+    <circle cx="668" cy="540" r="8" fill="#FF5A5F"/>
+    <path d="M664 540 l3 3 l5 -6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="684" y="545" font-size="15" font-weight="600" fill="#E6E9FF">2 selected · 60 GB</text>
+    <rect x="1050" y="524" width="154" height="32" rx="9" fill="#E5484D"/>
+    <text x="1127" y="545" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">Move to Trash…</text>
+  </g>
+</svg>
